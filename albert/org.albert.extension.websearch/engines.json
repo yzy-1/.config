@@ -1,0 +1,38 @@
+[
+    {
+        "iconPath": "/home/yzy1/.config/albert/org.albert.extension.websearch/{144a8443-c6b9-4320-a416-ded32e39ff49}.svg",
+        "name": "Bing",
+        "trigger": "b ",
+        "url": "https://cn.bing.com/search?ensearch=1&rb=0&q=%s"
+    },
+    {
+        "iconPath": "/home/yzy1/.config/albert/org.albert.extension.websearch/{28de0322-9449-4029-a1ea-3e6ba0479431}.svg",
+        "name": "Google",
+        "trigger": "gg ",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/yzy1/.config/albert/org.albert.extension.websearch/{5c1ae490-a1a0-4e8f-ac76-401bc09e6dbd}.svg",
+        "name": "Baidu",
+        "trigger": "bd ",
+        "url": "https://www.baidu.com/s?wd=%s"
+    },
+    {
+        "iconPath": "/home/yzy1/.config/albert/org.albert.extension.websearch/{e46847d4-132c-453e-92c1-c5c4d214186e}.svg",
+        "name": "ArchWiki",
+        "trigger": "aw ",
+        "url": "https://wiki.archlinux.org/index.php?title=Special:Search&search=%s"
+    },
+    {
+        "iconPath": "/home/yzy1/.config/albert/org.albert.extension.websearch/{f54f04f4-0133-47f2-9d42-2be5dd7906f6}.svg",
+        "name": "Stackoverflow",
+        "trigger": "so ",
+        "url": "https://stackoverflow.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/yzy1/.config/albert/org.albert.extension.websearch/{a85fe839-f56b-412e-9267-afb1392ed958}.",
+        "name": "GitHub",
+        "trigger": "gh ",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    }
+]

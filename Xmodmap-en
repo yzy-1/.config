@@ -1,0 +1,10 @@
+keycode 10 = numbersign 1 numbersign 1 numbersign 1 numbersign
+keycode 11 = at 2 at 2 at 2 at
+keycode 12 = less 3 less 3 less 3 less
+keycode 13 = greater 4 greater 4 greater 4 greater
+keycode 14 = bracketleft 5 bracketleft 5 bracketleft 5 bracketleft
+keycode 15 = bracketright 6 bracketright 6 bracketright 6 bracketright
+keycode 16 = braceleft 7 braceleft 7 braceleft 7 braceleft
+keycode 17 = braceright 8 braceright 8 braceright 8 braceright
+keycode 18 = parenleft 9 parenleft 9 parenleft 9 parenleft
+keycode 19 = parenright 0 parenright 0 parenright 0 parenright
