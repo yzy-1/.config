@@ -58,7 +58,7 @@ HYPHEN_INSENSITIVE="true"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-HIST_STAMPS="yyyy/mm/dd"
+HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -160,14 +160,16 @@ ra() {
 }
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
+# mkcd
+mkcd () { mkdir -p -- "$1" && cd -P -- "$1" }
+
 # Aliases
 alias c=clear
 alias q=exit
 alias e=$EDITOR
-alias se='sudo -E nvim'
-alias sra='sudo -E ranger'
-alias rm='rm -i'
-alias sudo='sudo -E'
+alias se="sudo -E nvim"
+alias sra="sudo -E ranger"
+alias rm="rm -i"
 alias top=vtop
 
 # Git aliases
@@ -177,3 +179,9 @@ alias ga="git add"
 alias gaa="git add --all"
 alias gp="git push"
 alias gco="git checkout"
+alias task="asynctask -f"
+
+export TERMCMD="st"
+
+# 一键更新所有 pip 包
+alias pip-update="pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U"
